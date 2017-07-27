@@ -266,7 +266,7 @@ background-color: transparent;
     background:rgba(0, 0, 0, 0.1);
 	padding:0 20px;
 	height:17px;
-	line-height:10px;
+	/*line-height:10px;*/
 	-webkit-border-top-left-radius:8px;
 	-webkit-border-bottom-left-radius:8px;
 	-moz-border-radius-topleft:8px;
@@ -688,11 +688,31 @@ nav#footer{
 	color: #c59a6d;
 }
 #footer a:hover{
-	color: #000000;}
+	color: #ffffff;}
 
 body a {color: #c59a6d;}
-     a:hover{color: #000000;}
+     a:hover{color:#ffffff;}
      a:focus{
         	color: #c59a6d;
         	text-decoration: none;
     }
+
+.text-center {
+       margin: 0 auto;
+       max-width: 80vw;
+  }
+  .service a {color: #000000;}
+
+      {
+      color: #000000;
+  	border: 1px solid #222;
+  	margin-top: 20px;
+  	margin-bottom: 0px;
+  	transition: all 0.3s;
+  	position: relative;
+  	padding: 60px 25px;
+  }
+
+  .service h4:hover, span:hover {
+      color: #c59a6d;
+  }
