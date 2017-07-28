@@ -69,12 +69,21 @@ function main() {
 }
 main();
 
-/*animated skillbar $*/
-
-jQuery(document).ready(function(){
-	jQuery('.skillbar').each(function(){
-		jQuery(this).find('.skillbar-bar').animate({
-			width:jQuery(this).attr('data-percent')
-		},6000);
-	});
-});
+// /*animated skillbar $*/
+//
+// jQuery(document).ready(function(){
+//
+//     // $('body').scrollspy({ target: '#skillbar' })
+//
+//     $('#skillbar').on('activate.bs.scrollspy', function () {
+//       // do something…
+//       console.log("test")
+//     })
+//
+// 	jQuery('.skillbar').each(function(){
+// 		jQuery(this).find('.skillbar-bar').animate({
+// 			width:jQuery(this).attr('data-percent')
+// 		},6000);
+// 	});
+// });
+/*scroll spy $*/
